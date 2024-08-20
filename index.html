@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentbelen</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <li><a href="#Estructura">Ir a Estructura</a></li>
+            <li><a href="#Multimedia">Ir a Multimedia</a></li>
+            <li><a href="#Formulario">Ir a Formulario</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1 id="Estructura">1.Estructura Basica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura basica que incluye la delaracion DOCTYOE.etiquetas de metadatos y un
+            titulo.</p>
+
+
+        <h1>2.Encabezados y Propiedades del texto</h1>
+        <br><b>Este en un texto en negrita.</b></br>
+        <br><em>Este es un texto en cursiva.</em></br>
+        <br><mark>Este es un texto subrayado</mark></br>
+
+        <h1>3.Divisiones y Agrupacion de contenido</h1>
+        <div>
+
+            <h4> Seccion 1 </h4>
+            Contenido de la primera seccion agrupada en un div
+        </div>
+        <div>
+            <h4>Seccion 2 </h4>
+            Contenido de la segunda seccion agrupada en un div.
+        </div>
+        <h1>4.Enlaces y Listas</h1>
+        <div>
+            Visita nuestro <a href="https://www.google.com" target="_blank">sitio web</a>
+            para mas informacion.
+        </div>
+
+        <div>
+            <h4>Enlaces internos:</h4>
+            <ul>
+                <li><a href="#Estructura">Ir a Estructura</a></li>
+                <li><a href="#Multimedia">Ir a Multimedia</a></li>
+                <li><a href="#Formulario">Ir a Formulario</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Lista desordenada:</h4>
+            <ul>
+                <li>Primeritemdeuna lista desordenada </li>
+                <li>Segundo item de una lista desordenada</li>
+            </ul>
+        </div>
+
+        <div>
+            <ol>
+                <li>Primer item de una lista ordenada</li>
+                <li>Segundo item de una lista ordenadaa </li>
+            </ol>
+        </div>
+
+        <div>
+            <h1 id="multimedia">5.ElementosMultimedia</h1>
+            <div>
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls alt="es un audio" />
+            </div>
+            <div>
+                <img src="repositorio/imagen.jpg"
+                    width="200px" height="200px" alt="es una imagen" />
+            </div>
+            <div>
+                <video
+                    src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                    controls width="200px" height="400px" alt="es un video" />
+            </div>
+        </div>
+
+        <div>
+            <h1>6.Tablas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <div>
+            <h1 id="Formulario">7.Formulario</h1>
+            <form>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" />
+                </div>
+                <di>
+                    <label>Email</label>
+                    <input type="email" />
+        </div>
+        <div>
+            <label>Mensaje</label>
+            <textarea></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+
+        </form>
+        </div>
+    </main>
+    <fooder>
+        Descripción de la estructura.
+        Informacion complementaria.
+        2024 Trabajo Practico de HTML.
+
+    </fooder>
+</body>
+
+</html>
